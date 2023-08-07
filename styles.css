@@ -1,12 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
     font-family: 'Instrument Sans', sans-serif;
+    margin: 16px;
+    color: #020617;
+}
+
+html {
+    font-size: 16px;
     line-height: 150%;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+}
+
+select {
+    font-size: 16px;
+}
+
+textarea {
+    font-size: 16px;
+}
+
 img {
-    height: 320px;
-    width: 75vw;
     object-fit: cover;
-  }
+    width: 100vw;
+    height: 320px;
+}
+
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc;
+}
+body {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
